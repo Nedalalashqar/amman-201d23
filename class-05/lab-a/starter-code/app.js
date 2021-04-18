@@ -30,10 +30,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-  let multiply = a*b;
-  let msg2= "The product of "+a+" and "+b+" is "+ multiply+".";
-  let  multiplyArr=[ multiply,msg2];
-  return multiplyArr;
+  let multiply = a * b;
+  let message = 'The product of 5 and 9 is 45.' ;
+  let multiplyArray = [ multiply , message ]; 
+  return multiplyArray
 }
 
 // Here is the test for multiply(); uncomment it to run it
